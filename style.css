@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: rgb(43, 92, 92);
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    }
+
+.navbar .logo{
+    float: left;
+    width: 30px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 0;
+    color: aliceblue;
+}
+
+.navbar .a_list{
+    margin: 20px;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.navbar .a_list a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.navbar .create{
+    float: right;
+    height: 60px;
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 5px;
+    background-color: rgb(45, 163, 163);
+    color: white;
+}
+
+.center{
+    height: 400px;
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+    padding: 40px;
+    padding-top: 80px;
+}
+
+.left{
+    width: 30%;
+    float: left;
+    margin: 40px;
+    margin-left: 250px;
+}
+
+.left h1{
+    color: rgb(74, 126, 126);
+}
+
+.left h2{
+    color: rgb(36, 75, 201);
+}
+
+.left p{
+    color: rgb(114, 129, 177);
+}
+
+.left button{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(61, 107, 107);
+    color: aliceblue;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.right{
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+img{
+    height: 300px;
+    border-radius: 10px;
+}
